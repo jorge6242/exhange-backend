@@ -9,16 +9,16 @@ export class Transaction extends BaseEntity {
   public dateTime: Date = new Date();
 
   @Column({ nullable: true, default: null })
-  public currencyFrom: string;
+  public currency_from: string;
 
   @Column({ nullable: true, default: null })
-  public amount1: number;
+  public amount_1: number;
 
   @Column({ nullable: true, default: null })
-  public currencyTo: string;
+  public currency_to: string;
 
   @Column({ nullable: true, default: null })
-  public amount2: number;
+  public amount_2: number;
 
   @Column({ nullable: true, default: null })
   public type: string;
